@@ -1,0 +1,173 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: rgb(255, 255, 255);
+    color: #333;
+}
+.header {
+    width:max-content; 
+    height:max-content; 
+    border-radius: 12px; 
+}
+@media (max-width: 768px) {}
+    .header  { 
+    width: 360px; 
+    height:auto; 
+    }
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 4rem 1rem;
+    box-shadow: 0 4px 8px rgb(182, 164, 106);
+    position: relative;
+}
+
+     
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 0;
+    padding: 1rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #cac686;
+    border-radius: 10px;
+}
+
+nav a {
+    color: #fffffff6;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background 0.5s, color 0.5s;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background:  #b8997d;
+    color: #fff;
+}
+footer {
+    background-color:  rgb(90, 60, 30)  ;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center; }
+  
+  
+  
+    #contato input, #contato textarea {
+        width: 100%;
+        background-color: #ffffff;
+        padding: 0.8rem;
+        border: 1px solid #b8997d;
+        border-radius: 5px;
+        font-size: 1rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) inset;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    /* Ajuste para a seção de contato */
+    section {
+        color: rgba(255, 255, 255, 0.973);
+        padding: 2rem 1rem;
+        text-align: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        background: rgb(90, 60, 30);
+        border-radius: 8px;
+        box-shadow: 0 12px 18px rgb(224, 211, 153);
+        margin-bottom: 2rem;
+    }
+    
+    /* Ajustes para telas menores */
+    @media screen and (max-width: 480px) {
+        section {
+            padding: 1.5rem;
+            max-width: 90%;
+        }
+    
+        #contato input, #contato textarea {
+            width: 100%;
+        }
+    }
+    
+    
+    .font {
+        width: 280px;; 
+        height:max-content; 
+        border-radius: 12px; 
+    }
+    #contato {
+        padding: 3rem 1rem;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 2rem;
+    }
+    
+    #contato h2 {
+        font-size: 1.5rem;
+        color:  #b8997d;
+        margin-bottom: 1.5rem;
+    }
+    
+    #contato p {
+        font-size: 1.2rem;
+        color:  #b8997d;
+        margin-bottom: 1rem;
+    }
+    
+    #contato form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        max-width: 100px;
+        margin: 0 auto;
+    }
+    
+    #contato label {
+        font-size: 1rem;
+        color:  #ffffff;
+        align-self: flex-start;
+    }
+    
+   
+    #contato button {
+        background: #b8997d;
+        color: #fff;
+        padding: 0.75rem 2rem;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: background 0.3s, transform 0.3s;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    
+    #contato button:hover {
+        background: #914b2f;
+        transform: scale(1.05);
+    }
+    @media (max-width: 768px) {
+        nav ul {
+            flex-direction: column; /* Alinha itens verticalmente */
+            align-items: center;
+        }
+    
+        nav li {
+            width: 100%; /* Cada item ocupa toda a largura */
+            text-align: center; /* Centraliza o texto */
+        }
+    }
