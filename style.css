@@ -77,7 +77,6 @@ footer {
         margin: 0 auto;
     }
     
-    /* Ajuste para a seção de contato */
     section {
         color: rgba(255, 255, 255, 0.973);
         padding: 2rem 1rem;
@@ -90,7 +89,6 @@ footer {
         margin-bottom: 2rem;
     }
     
-    /* Ajustes para telas menores */
     @media screen and (max-width: 480px) {
         section {
             padding: 1.5rem;
@@ -99,6 +97,12 @@ footer {
     
         #contato input, #contato textarea {
             width: 100%;
+        }
+
+        .font {
+            width:auto;
+            height: auto;
+            border-radius: 12px;
         }
     }
     
